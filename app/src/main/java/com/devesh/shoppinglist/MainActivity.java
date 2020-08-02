@@ -45,7 +45,8 @@ public class MainActivity extends AppCompatActivity {
 
         //check if item was saved
         List<Item> items = databaseHandler.getAllItems();
-        for (Item item : items) {
+        for (Item item : items)
+        {
             Log.d("Main", "onCreate: " + item.getItemColor());
         }
 
